@@ -1,0 +1,32 @@
+/* Palette */
+
+:root {
+    --ft-dark: #0F0E17;
+    --ft-mail: #61C0E1;
+    --title-: #E53170;
+}
+
+/*#region CommonRules*/
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/*#endregion CommonRules*/
