@@ -4,6 +4,8 @@
     --ft-dark: #0F0E17;
     --ft-mail: #61C0E1;
     --title-: #E53170;
+    --shadow-: #D0D0CF;
+
 }
 
 /*#endregion Palette */
@@ -14,17 +16,6 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box; 
-}
-
-
-/*#endregion CommonRules*/
-
-/*#region Utilities*/
-
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 img {
@@ -39,16 +30,23 @@ img {
     margin: auto;
 }
 
+
+/*#endregion CommonRules*/
+
+/*#region Utilities*/
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .mt2 {
     margin-top: 2.5rem;
 }
 
-.card {
-    float: left;
-    width: calc(70% / 3);
-    padding: 0.3rem;
-    background-color: #0F0E17;
-    color: white;
+.font_min {
+    font-size: 0.9rem;
 }
 
 .mail {
@@ -64,4 +62,25 @@ header {
     text-align: center;
 }
 
+.title {
+    font-family: 'Baloo 2', cursive;
+    color: #E53170;
+}
+
 /*#endregion Header*/
+
+/*#region Main*/
+
+.card {
+    float: left;
+    width: calc(80% / 3);
+    padding: 0.3rem;
+    margin-right: 1.5rem;
+    margin-top: 2.5rem;
+    background-color: #0F0E17;
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    box-shadow: 0 0 10px #D0D0CF;
+}
+
+/*#endregion Main*/
