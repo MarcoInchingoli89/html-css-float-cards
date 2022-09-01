@@ -42,7 +42,7 @@ img {
 }
 
 .mt2 {
-    margin-top: 2.5rem;
+    margin-top: 1rem;
 }
 
 .font_min {
@@ -80,7 +80,7 @@ header {
     background-color: #0F0E17;
     color: white;
     font-family: 'Fredoka', sans-serif;
-    box-shadow: 0 0 10px #D0D0CF;
+    box-shadow: 10px 10px #D0D0CF;
 }
 
 /*#endregion Main*/
