@@ -1,10 +1,12 @@
-/* Palette */
+/*#region Palette */
 
 :root {
     --ft-dark: #0F0E17;
     --ft-mail: #61C0E1;
     --title-: #E53170;
 }
+
+/*#endregion Palette */
 
 /*#region CommonRules*/
 
@@ -14,6 +16,11 @@
    box-sizing: border-box; 
 }
 
+
+/*#endregion CommonRules*/
+
+/*#region Utilities*/
+
 .clearfix {
     content: "";
     display: table;
@@ -22,6 +29,8 @@
 
 img {
     max-width: 100%;
+    height: 5rem;
+    vertical-align: middle;
 }
 
 .container {
@@ -29,4 +38,21 @@ img {
     margin: auto;
 }
 
-/*#endregion CommonRules*/
+.card {
+    float: left;
+    width: calc(100% / 3);
+}
+
+.text {
+    vertical-align: middle;
+}
+
+/*#endregion Utilities*/
+
+/*#region Header*/
+
+header {
+    text-align: center;
+}
+
+/*#endregion Header*/
