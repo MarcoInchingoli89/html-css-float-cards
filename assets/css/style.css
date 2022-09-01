@@ -30,7 +30,7 @@
 img {
     max-width: 100%;
     height: 5rem;
-    vertical-align: middle;
+    float: left;
 }
 
 .container {
@@ -41,10 +41,7 @@ img {
 .card {
     float: left;
     width: calc(100% / 3);
-}
-
-.text {
-    vertical-align: middle;
+    padding: 1rem;
 }
 
 /*#endregion Utilities*/
